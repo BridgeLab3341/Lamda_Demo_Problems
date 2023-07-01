@@ -39,5 +39,14 @@ namespace Lamda_Demo_Problems
                 Console.WriteLine(sos);
             }
         }
+        public static void EvenNmbers(List<int> list)
+        {
+            Console.WriteLine("Even Numbers");
+            Console.WriteLine("-------------");
+            foreach (int data in list.FindAll(x => (x % 2) == 0))
+            {
+                Console.WriteLine(data);
+            }
+        }
     }
 }
