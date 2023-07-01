@@ -48,5 +48,14 @@ namespace Lamda_Demo_Problems
                 Console.WriteLine(data);
             }
         }
+        public static void GreaterNmbers5(List<int> list)
+        {
+            Console.WriteLine("Greater Than 5 Numbers");
+            Console.WriteLine("----------------------");
+            foreach (int data in list.FindAll(x => (x > 5)))
+            {
+                Console.WriteLine(data);
+            }
+        }
     }
 }
