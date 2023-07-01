@@ -57,5 +57,18 @@ namespace Lamda_Demo_Problems
                 Console.WriteLine(data);
             }
         }
+        public static void Less_Than_7(List<int> list)
+        {
+            Console.WriteLine("Less Than 7 Numbers");
+            Console.WriteLine("----------------------");
+            if (list.Any(x => (x < 7)))
+            {
+                Console.WriteLine("Present");
+            }
+            else
+            {
+                Console.WriteLine("Not Found");
+            }
+        }
     }
 }
